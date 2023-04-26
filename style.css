@@ -1,7 +1,7 @@
 .pastCity {
     margin-bottom: 10px;
     padding: 5px;
-    background-color: #f2f2f2;
+    background-color: blue;
     cursor: pointer;
   }
   
@@ -17,7 +17,7 @@
   .current-list-group {
     margin-bottom: 10px;
     padding: 5px;
-    background-color: #f2f2f2;
+    background-color: grey;
   }
   
   #five-day {
@@ -27,6 +27,6 @@
   .five-day-list-group {
     margin-bottom: 10px;
     padding: 5px;
-    background-color: #f2f2f2;
+    background-color: grey;
   }
   

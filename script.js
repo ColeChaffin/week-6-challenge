@@ -2,7 +2,7 @@ var containerWeather = document.getElementById('weather');
 var forecastContainer = document.getElementById('five-day');
 var historyContainer = document.getElementById('history');
 var searchButton = document.getElementById('search-button');
-var APIkey = 'b63b9cf706a5ef6e91e1fda2235a006b'; // update with mine
+var APIkey = 'b63b9cf706a5ef6e91e1fda2235a006b';
 
 (function () {
   var cities = localStorage.getItem('cities')
@@ -34,7 +34,7 @@ function getApi(searchVal) {
     .then(function (data) {
       console.log(data);
       $('#search-city').val('')
-      //temp
+      
       var temp = document.createElement('div');
       temp.textContent = "Temp: " + data.main.temp + " F";
       temp.classList = "current-list-group";
