@@ -22,7 +22,7 @@ These images show what the application looks like on start up and during use:
 <img src=./assets/img2.png alt="img2" width="400px"> <img src=./assets/img1.png alt="img1" width= 400px>
 
 
-<h2>Link to deployed application<h2>
+<h2>Link to deployed application:<h2>https://colechaffin.github.io/week-6-challenge/
 
 
 
